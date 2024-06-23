@@ -112,14 +112,6 @@ p[class^="from-"] {
     max-width: 300px;
 }
 
-p.from-me~p.from-me {
-    margin: 0.25rem 0 0;
-}
-
-p.from-me~p.from-me:not(:last-child) {
-    margin: 0.25rem 0 0;
-}
-
 p.from-me~p.from-me:last-child {
     margin-bottom: 0.5rem;
 }
@@ -276,6 +268,10 @@ h2 {
         font-size: medium;
     }
 
+    p.from-me {
+        font-size: medium;
+        margin-right: 10px;
+    }
     img.profile {
         width:30px;
         height:30px;
