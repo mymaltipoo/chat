@@ -255,8 +255,6 @@ h2 {
     div.iphone {display: none;}
     div.container {
         padding: 0;
-        position: fixed;
-        overflow: hidden;
     }
     div.txt {
         max-width: 270px;
